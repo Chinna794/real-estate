@@ -1,24 +1,26 @@
-# Node modules
+# Ignore dependencies
 node_modules/
 
-# Build output
-.next/
+# Build outputs
 dist/
+.next/
 out/
-
-# Environment files
-.env
-.env.local
-.env.*.local
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
 # Prisma
 .prisma/
 
-# OS generated
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env*
+!.env.example
+
+# System files
 .DS_Store
 Thumbs.db
